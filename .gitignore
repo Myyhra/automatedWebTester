@@ -1,0 +1,73 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+.yarn-integrity
+.yarn/*
+.pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build and output directories
+/dist
+/build
+/out
+/.nyc_output
+/coverage
+
+# Selenium WebDriver binaries (if stored locally)
+chromedriver*
+geckodriver*
+edgedriver*
+
+# Logs and test results
+*.log
+test-results/
+allure-results/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Temporary files
+*.tmp
+*.bak
+*.pid.lock
+
+# Caches
+.cache
+.npm
+.node_repl_history
+
+# Compiled files
+*.class
+*.exe
+*.dll
+*.o
+*.so
+
+# Packages
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Project-specific config backups
+*.backup
