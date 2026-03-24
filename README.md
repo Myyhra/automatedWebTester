@@ -6,6 +6,8 @@ First Open the config file and modify the variables as needed for the applicatio
 
 Note: You can use URL variables but you have to modify the scipts where the driver.get will be your desired URL.
 
+Be sure your application and your database is running.
+
 Each Test is an individual test, Login Test will only test the Login component etc. This prevents clogging terminal and saves time debugging.
 
 To run a test:

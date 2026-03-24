@@ -35,7 +35,7 @@ module.exports = {
   },
 
   Login: {
-    //Check your mongodb database and use an existing account
+    //Check your database and use an existing account
     emailElement: "email",
     email: "TestUser10@email.com",
     passwordElement: "password",
@@ -55,18 +55,15 @@ module.exports = {
     productItemClass: "product-item",
   }, */
   Home: {
-    // Element names used in home page
     searchInput: "searchInput",
     categorySelect: "categorySelect",
     addToCartButton: "addToCartButton",
 
-    // Test search data
     searchKeyword: "product",
     searchCategory: "Device",
   },
 
   Cart: {
-    // Element names used in cart page
     cartIconLink: "cartIconLink",
     proceedToCheckoutButton: "proceedToCheckoutButton",
     removeItemButton: "removeItemButton",
@@ -75,16 +72,14 @@ module.exports = {
   },
 
   Checkout: {
-    // Element names used in checkout page
     placeOrderButton: "placeOrderButton",
-    fullNameInput: "fullName",
-    addressInput: "address",
-    cityInput: "city",
-    postalCodeInput: "postalCode",
-    countryInput: "country",
-    paymentMethodInput: "paymentMethod",
+    fullNameInput: "fullNameInput",
+    addressInput: "addressInput",
+    cityInput: "cityInput",
+    postalCodeInput: "postalCodeInput",
+    countryInput: "countryInput",
+    paymentMethodInput: "paymentMethodInput",
 
-    // Test data
     testFullName: "John Doe",
     testAddress: "123 Main St",
     testCity: "New York",
